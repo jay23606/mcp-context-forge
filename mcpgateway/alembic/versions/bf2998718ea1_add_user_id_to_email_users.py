@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 add_user_id_to_email_users
 
 Revision ID: bf2998718ea1
-Revises: d3f6a9b1c5e8
+Revises: e5c2a7b91f4d
 Create Date: 2026-09-09 21:15:35.188743
 """
 
@@ -20,7 +20,7 @@ from sqlalchemy import text
 
 # revision identifiers, used by Alembic.
 revision: str = "bf2998718ea1"  # pragma: allowlist secret
-down_revision: Union[str, Sequence[str], None] = "d3f6a9b1c5e8"  # pragma: allowlist secret
+down_revision: Union[str, Sequence[str], None] = "e5c2a7b91f4d"  # pragma: allowlist secret
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
